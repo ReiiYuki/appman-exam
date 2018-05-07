@@ -22,7 +22,6 @@ app.post('/api/login', async (req, res, next) => {
     const PASSWORD = 'password';
     const email = _.get(req, ['body', 'email']);
     const password = _.get(req, ['body', 'password']);
-
     await delay(3000);
 
     if (_.isNil(email) || _.isNil(password)) {
