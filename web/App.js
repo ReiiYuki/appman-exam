@@ -3,9 +3,11 @@ import React from 'react';
 import styled from 'styled-components'
 
 const Card = styled.div`
+    width: 25%;
     padding: 20px;
     background: white;
-    box-shadow: 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px lightgray;
+    margin: auto;
 `
 
 const LogoContainer = styled.div`
