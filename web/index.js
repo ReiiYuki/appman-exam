@@ -1,6 +1,14 @@
-import React from 'react';
-import { render } from 'react-dom';
 import App from './App';
+import React from 'react';
+import { injectGlobal } from 'styled-components';
+import { render } from 'react-dom';
+
+injectGlobal`
+    body {
+        background: ghostwhite;
+        font-family: sans-serif;
+    }
+`
 
 const appElement = document.getElementById('app');
 
